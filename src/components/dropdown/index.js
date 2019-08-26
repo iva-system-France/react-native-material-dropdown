@@ -202,6 +202,14 @@ export default class Dropdown extends PureComponent {
     this.mounted = false;
   }
 
+  componentWillMount() {
+    const handler = (e) => {
+      if (this.state.modal) { this.onPress(null) }
+    }
+    this.keyboardDidShowListener = Keyboard.addListener('keyboardDidShow', handler)
+    this.keyboardDidHideListener = Keyboard.addListener('keyboardDidHide', handler)
+  }
+
   onPress(event) {
     let {
       data,
