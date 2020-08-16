@@ -30,9 +30,9 @@
   },
 
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.7.0",
-    "eslint-plugin-react": "^7.20.6"
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.5.0",
+    "eslint-plugin-react": "^7.0.0"
   },
 
   "scripts": {
@@ -40,9 +40,9 @@
   },
 
   "dependencies": {
-    "prop-types": "^15.7.2",
-    "react-native-material-buttons": "^0.6.0",
-    "react-native-material-ripple": "^0.9.1",
-    "react-native-material-textfield": "^0.16.0"
+    "prop-types": "^15.5.9",
+    "react-native-material-buttons": "^0.5.0",
+    "react-native-material-ripple": "^0.8.0",
+    "react-native-material-textfield": "git@github.com:iva-system-France/react-native-material-textfield.git#fixAnimatedIssue"
   }
 }
