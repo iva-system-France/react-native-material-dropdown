@@ -36,6 +36,6 @@
     "prop-types": "^15.7.2",
     "react-native-material-buttons": "^0.6.0",
     "react-native-material-ripple": "^0.9.1",
-    "react-native-material-textfield": "git+ssh://git@github.com:iva-system-France/react-native-material-textfield.git#v.0.13.0"
+    "react-native-material-textfield": "git+ssh://git@github.com:iva-system-France/react-native-material-textfield.git#v.0.12.1"
   }
 }
